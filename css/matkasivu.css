@@ -1,9 +1,9 @@
 body {
     margin: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #322D27;
+    color: #426E6F;
     line-height: 1.3;
-    background-color: #AAAAAE;
+    background-color: #426E6F;
 }
 
 h2 {
@@ -22,17 +22,18 @@ footer {
     max-width: 1200px;
     margin: 20px;
     padding: 20px;
-    background-color: #D6D5DF;
+    background-color: #FBFFFF;
     border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.15)
+    border: solid 5px #DDE9E9;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.50)
 }
 
 .tausta {
     padding: 10px;
-    background-color: #dbdae1;
+    background-color: #DDE9E9;
     border-radius: 15px;
     line-height: 1.3;
-    border: solid 1px #b7b7ba;
+    border: solid 1px #d3dede;
     box-shadow: 0 3px 8px rgba(0,0,0,0.15)
 }
 
@@ -40,10 +41,10 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 3px;
     word-spacing: 5px;
-    color: #BF8440;
+    color: #426E6F;
 }
 
 .huomio {
-    padding: 8px 8px;
-    border-left: 6px solid #BF8440;
+    padding: 7px 8px;
+    border-left: 6px solid #426E6F;
 }

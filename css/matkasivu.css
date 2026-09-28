@@ -1,12 +1,49 @@
 body {
-    margin: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #322D27;
-    line-height: 1;
+    line-height: 1.3;
     background-color: #AAAAAE;
 }
 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+}
+
+.sisalto {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #D6D5DF;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15)
+}
+
 .tausta {
-    padding: 1px;
-    background-color: #E2E1EB;
+    padding: 10px;
+    background-color: #dbdae1;
+    border-radius: 15px;
+    line-height: 1.3;
+    border: solid 1px #b7b7ba;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15)
+}
+
+.paaotsikko {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: #BF8440;
+}
+
+.huomio {
+    padding: 8px 8px;
+    border-left: 6px solid #BF8440;
 }

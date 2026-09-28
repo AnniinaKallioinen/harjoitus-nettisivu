@@ -21,7 +21,7 @@ footer {
     width: 90%;
     max-width: 1200px;
     margin: 20px;
-    padding: 20px;
+    padding: 10px 20px;
     background-color: #FBFFFF;
     border-radius: 10px;
     border: solid 5px #DDE9E9;
@@ -46,5 +46,7 @@ footer {
 
 .huomio {
     padding: 7px 8px;
+    background-color: #e8f4f4;
     border-left: 6px solid #426E6F;
+    border-right: 6px solid #426E6F;
 }

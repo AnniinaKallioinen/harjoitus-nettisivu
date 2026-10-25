@@ -22,7 +22,8 @@ body {
         "sidebar content"
         "footer footer";
     gap: 0px;
-    margin: 0 auto;
+    width: 80%;
+    margin: 20px auto;
     border-radius: 20px;
     overflow: hidden;
     border: solid 5px #FEFEFE;

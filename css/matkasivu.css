@@ -39,7 +39,6 @@ body {
     word-spacing: 5px;
     color: #6C7359;
     padding: 10px;
-    
 }
 
 .sidebar {
@@ -67,6 +66,7 @@ body {
 
 .sidebar a:hover, .nav a:focus {
     background-color: #B9A691;
+    color: #55574d;
 
 }
 

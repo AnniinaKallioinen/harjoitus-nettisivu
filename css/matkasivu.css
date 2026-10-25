@@ -38,12 +38,35 @@ body {
     word-spacing: 5px;
     color: #6C7359;
     padding: 10px;
+    
 }
 
 .sidebar {
     grid-area: sidebar;
     background-color: #E0E7D7;
-    padding: 20px;
+    padding: 0px;
+}
+
+.sidebar ul {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+.sidebar a {
+    display: block;
+    text-decoration: none;
+    color: #6C7359;;
+    padding: 15px 10px;
+    background-color: #D5DBCC;
+}
+
+.sidebar a:hover, .nav a:focus {
+    background-color: #B9A691;
+
 }
 
 .banner {
@@ -89,57 +112,11 @@ body {
     box-shadow: 0 3px 8px rgba(47, 47, 47, 0.3)
 }
 
-//*.logo,
-.sidebar,
-.banner,
-.main,
-.footer {
-    padding: 20px;
-}
-
-
-//*
-sisalto {
-    width: 80%;
-    max-width: 1200px;
-    margin: 20px;
-    padding: 10px 20px;
-    background-color: #FBFFFF;
-    border-radius: 20px;
-    border: solid 5px #DDE9E9;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.50)
-}
-
-tausta {
-    padding: 10px;
-    background-color: #DDE9E9;
-    border-radius: 15px;
-    line-height: 1.3;
-    border: solid 1px #d3dede;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.15)
-}
-
-paaotsikko {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 3px;
-    word-spacing: 5px;
-    color: #426E6F;
-}
-
-huomio {
-    padding: 7px 8px;
-    background-color: #e8f4f4;
-    border-left: 6px solid #426E6F;
-    border-right: 6px solid #426E6F;
-}
-
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
     letter-spacing: 2px;
-    word-spacing: 2px;
+    word-spacing: 3px;
+    color: #B9A691;
+    padding: 5px;
 }
-
-footer {
-    text-align: center;
-    font-size: 13px;
-} *//

@@ -1,9 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #426E6F;
+    color: #7D7D7D;
     line-height: 1.3;
-    background-color: #426E6F;
+    background-color: #B3B3B3;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 200px 1fr 40px;
+    grid-template-areas: 
+        "logo logo"
+        "sidebar banner"
+        "sidebar content"
+        "footer footer";
+    gap: 0px;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    border: solid 5px #FEFEFE;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.50)
+}
+
+.logo {
+    grid-area: logo;
+    background-color: #B7C396;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: #6C7359;
+    padding: 10px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #E0E7D7;
+    padding: 20px;
+}
+
+.banner {
+    grid-area: banner;
+    position: relative;
+    background-image: url("../kuvat/banner_kuva2.png");
+    background-size: cover;
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-shadow: inset 0 0 30px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(183, 194, 151, 0.30);
+    pointer-events: none;
+}
+
+.main {
+    grid-area: content;
+    background-color: #f4f4f4f7;
+    padding: 15px;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #B7C396;
+    padding: 10px;
+    font-size: 13px;
+    color: #55574d;
+    justify-items: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #FEFEFE;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 0 3px 8px rgba(47, 47, 47, 0.3)
+}
+
+//*.logo,
+.sidebar,
+.banner,
+.main,
+.footer {
+    padding: 20px;
+}
+
+
+//*
+sisalto {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #FBFFFF;
+    border-radius: 20px;
+    border: solid 5px #DDE9E9;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.50)
+}
+
+tausta {
+    padding: 10px;
+    background-color: #DDE9E9;
+    border-radius: 15px;
+    line-height: 1.3;
+    border: solid 1px #d3dede;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15)
+}
+
+paaotsikko {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: #426E6F;
+}
+
+huomio {
+    padding: 7px 8px;
+    background-color: #e8f4f4;
+    border-left: 6px solid #426E6F;
+    border-right: 6px solid #426E6F;
 }
 
 h2 {
@@ -15,38 +142,4 @@ h2 {
 footer {
     text-align: center;
     font-size: 13px;
-}
-
-.sisalto {
-    width: 80%;
-    max-width: 1200px;
-    margin: 20px;
-    padding: 10px 20px;
-    background-color: #FBFFFF;
-    border-radius: 20px;
-    border: solid 5px #DDE9E9;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.50)
-}
-
-.tausta {
-    padding: 10px;
-    background-color: #DDE9E9;
-    border-radius: 15px;
-    line-height: 1.3;
-    border: solid 1px #d3dede;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.15)
-}
-
-.paaotsikko {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 3px;
-    word-spacing: 5px;
-    color: #426E6F;
-}
-
-.huomio {
-    padding: 7px 8px;
-    background-color: #e8f4f4;
-    border-left: 6px solid #426E6F;
-    border-right: 6px solid #426E6F;
-}
+} *//

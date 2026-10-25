@@ -18,12 +18,12 @@ footer {
 }
 
 .sisalto {
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     margin: 20px;
     padding: 10px 20px;
     background-color: #FBFFFF;
-    border-radius: 10px;
+    border-radius: 20px;
     border: solid 5px #DDE9E9;
     box-shadow: 0 3px 8px rgba(0,0,0,0.50)
 }

@@ -64,10 +64,9 @@ body {
     background-color: #D5DBCC;
 }
 
-.sidebar a:hover, .nav a:focus {
+.sidebar a:hover, .sidebar a:focus {
     background-color: #B9A691;
     color: #55574d;
-
 }
 
 .banner {
@@ -101,8 +100,7 @@ body {
     padding: 10px;
     font-size: 13px;
     color: #55574d;
-    justify-items: center;
-    align-items: center;
+    text-align: center;
 }
 
 .card {

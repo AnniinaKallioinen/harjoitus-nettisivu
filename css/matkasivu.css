@@ -30,6 +30,11 @@ body {
     box-shadow: 0 3px 8px rgba(0,0,0,0.50)
 }
 
+.container2 {
+    display: flex;
+    gap: 10px;
+}
+
 .logo {
     grid-area: logo;
     background-color: #B7C396;
@@ -131,4 +136,10 @@ p {
 .lista {
     padding-left: 15px;
     line-height: 1.5;
+}
+
+img {
+    border-radius: 7px;
+    border: 1px solid #7D7D7D;
+    box-shadow: 0 3px 8px rgba(47, 47, 47, 0.3)
 }
